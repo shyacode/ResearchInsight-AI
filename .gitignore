@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Hugging Face / model cache
+.cache/
+huggingface/
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# FAISS index / vector DB
+faiss_index/
+*.faiss
+*.index
+
+# Uploaded PDFs / data
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
